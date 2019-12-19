@@ -8,12 +8,13 @@ public class StaticFieldMethod_4_4 {
         //  class static field, access by class name
         System.out.println(Employee.getNextId());
         e.setId(10);
+
         // nextId becomes 2
         System.out.println(Employee.getNextId());
 
-
         // static method
-        System.out.println(Employee.say());
+        e.idTriple();
+        System.out.println(e.getId());
     }
 }
 
@@ -43,5 +44,10 @@ class Employee {
     // static method is method that do not operate on object
     public static String say() {
         return "Hello ";
+    }
+
+    public void idTriple() {
+        this.setId(this.getId() * 3);
+        // value changes stored within the object
     }
 }

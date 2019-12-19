@@ -1,6 +1,6 @@
 package chapter4_objects_and_classes;
 
-public class myClass_4_3 {
+public class MyClass_4_3 {
     public static void main(String[] args) {
         myClass2 mc2 = new myClass2("myClass2", 1);
         myClass mc = new myClass("myClass", 2, mc2);
