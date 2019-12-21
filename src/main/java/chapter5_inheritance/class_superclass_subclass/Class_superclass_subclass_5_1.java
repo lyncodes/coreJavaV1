@@ -6,7 +6,7 @@ import java.time.LocalDate;
  * author lyn
  * create_date_time 2019/12/21 21:45
  */
-public class Class_superclass_subclass {
+public class Class_superclass_subclass_5_1 {
     public static void main(String[] args) {
         System.out.println("class_superclass_subclass demonstration");
         Manager boss = new Manager("lyn", 80000.0, LocalDate.parse("2019-01-02"), 12.0);
