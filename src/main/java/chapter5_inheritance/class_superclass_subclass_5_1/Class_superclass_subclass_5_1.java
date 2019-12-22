@@ -1,4 +1,4 @@
-package chapter5_inheritance.class_superclass_subclass;
+package chapter5_inheritance.class_superclass_subclass_5_1;
 
 import java.time.LocalDate;
 
