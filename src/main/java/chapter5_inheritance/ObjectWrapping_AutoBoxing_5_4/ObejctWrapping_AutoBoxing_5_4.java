@@ -1,6 +1,5 @@
-package chapter5_inheritance.ObjectWrapping_AutoBoxing;
+package chapter5_inheritance.ObjectWrapping_AutoBoxing_5_4;
 
-import java.beans.AppletInitializer;
 import java.util.ArrayList;
 
 /**
