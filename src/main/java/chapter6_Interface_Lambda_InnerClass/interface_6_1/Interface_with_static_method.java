@@ -13,6 +13,8 @@ public class Interface_with_static_method  {
         m.introduce();
         System.out.println(m.toString());
         InterfaceWithStaticMethod.hi();
+        m.defaultHi();
+        m.defaultHi2();
     }
 }
 
@@ -35,6 +37,19 @@ interface InterfaceWithStaticMethod {
     // the spirit of interfaces as abstract specifications.
     static void hi() {
         System.out.println("this is a static method inside a interface");
+    }
+
+    // interface support a default method,
+    // that every class implement this interface will
+    // automatically implement this method by default
+    default void defaultHi(){
+        System.out.println("default hi");
+    }
+
+    // default method can call another method
+    default void defaultHi2(){
+        hi();
+        System.out.println("default method call another method");
     }
 
     void introduce();
