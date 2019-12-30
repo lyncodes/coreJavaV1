@@ -23,7 +23,13 @@ public class Cataching_Exception_7_2_1 {
         try {
             Create_Exception_7_1_4 c = new Create_Exception_7_1_4();
             c.CallException(9);
-        } catch (MyException e) {
+        } catch (ArithmeticException e) {
+            // c.CallException(9) will throw a MyException that defined before
+            // if the Exception type can't match the Exception that thrown out
+            // the code will not continue to execute
+
+            // it will not printStackTrace & re-throw the Exception to upper level
+            // Exception handler in this case
             e.printStackTrace();
             throw e;
         }
