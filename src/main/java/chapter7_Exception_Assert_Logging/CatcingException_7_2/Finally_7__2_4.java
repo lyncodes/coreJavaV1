@@ -1,4 +1,4 @@
-package chapter7_Exception_Assert_Logging;
+package chapter7_Exception_Assert_Logging.CatcingException_7_2;
 
 /**
  * author lyn

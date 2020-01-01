@@ -1,4 +1,4 @@
-package chapter7_Exception_Assert_Logging;
+package chapter7_Exception_Assert_Logging.CatcingException_7_2;
 
 /**
  * author lyn
@@ -6,7 +6,7 @@ package chapter7_Exception_Assert_Logging;
  */
 public class RethrowingAndChainingException_7_2_3 {
 
-    public static void main(String[] args) throws MyExceptionReThrow, MyException {
+    public static void main(String[] args) throws MyExceptionReThrow {
         System.out.println("RethrowingAndChainingException_7_2_3");
         RethrowingAndChainingException_7_2_3 r = new RethrowingAndChainingException_7_2_3();
         r.CallException(16);
