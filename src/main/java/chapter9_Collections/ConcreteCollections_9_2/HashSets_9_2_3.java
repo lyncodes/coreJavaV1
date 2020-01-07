@@ -1,4 +1,4 @@
-package chapter9_Collections.JavaCollectionFramework_9_1.ConcreteCollections_9_2;
+package chapter9_Collections.ConcreteCollections_9_2;
 
 import java.util.HashSet;
 import java.util.Set;
