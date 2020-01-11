@@ -17,7 +17,9 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.8</version>
-            <scope>provided</scope>
+            <scope>compile</scope>
+            <!--            compile 代表会把jar打到jar中去-->
+            <!--            provided代表由运行环境提供-->
         </dependency>
     </dependencies>
 
