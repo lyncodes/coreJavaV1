@@ -36,6 +36,7 @@ public class Bank {
             System.out.printf("%10.2f from %d to %d", amount, from, to);
             accounts[to] += amount;
             System.out.printf("Total Balance: %10.2f%n", getTotalBalance());
+            sufficeFunds.signalAll();
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {
