@@ -41,6 +41,7 @@ public class Bank {
             e.printStackTrace();
         } finally {
             bankLock.unlock();
+            sufficeFunds.signalAll();
         }
     }
 
